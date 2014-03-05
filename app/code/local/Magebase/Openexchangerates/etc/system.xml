@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Magebase
+ * @package     Magebase_Openexchangerates
+ * @copyright   Copyright (c) 2014 Magebase
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <sections>
+        <currency translate="label" module="mb_openexchangerates">
+            <groups>
+                <mb_openexchangerates translate="label">
+                    <label>Openexchangerates</label>
+                    <sort_order>42</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <app_id translate="label comment">
+                            <label>Openexchangerates App Id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment><![CDATA[Get your App Id at <a href="http://openexchangerates.org">openexchangerates.org</a>]]></comment>
+                        </app_id>
+                        <timeout translate="label">
+                            <label>Connection Timeout in Seconds</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </timeout>
+                    </fields>
+                </mb_openexchangerates>
+            </groups>
+        </currency>
+    </sections>
+</config>
