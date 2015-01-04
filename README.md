@@ -1,5 +1,11 @@
 Magebase_Openexchangerates
-====================================
+==========================
+[![GitHub tag](http://img.shields.io/github/tag/ffuenf/Magebase_Openexchangerates.svg)][tag]
+[![Build Status](http://img.shields.io/travis/ffuenf/Magebase_Openexchangerates.svg)][travis]
+
+[tag]: https://github.com/ffuenf/Magebase_Openexchangerates
+[travis]: https://travis-ci.org/ffuenf/Magebase_Openexchangerates
+
 
 This extension adds Openexchangerates Currency Conversion Service to Magento
 

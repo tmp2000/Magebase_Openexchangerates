@@ -1,0 +1,2 @@
+config:
+  default/currency/mb_openexchangerates/enable: 1
