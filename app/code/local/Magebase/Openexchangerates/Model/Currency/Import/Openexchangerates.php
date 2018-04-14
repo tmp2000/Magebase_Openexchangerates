@@ -44,7 +44,7 @@ class Magebase_Openexchangerates_Model_Currency_Import_Openexchangerates extends
      */
     public function __construct()
     {
-        $this->_httpClient = new Varien_Http_Client();
+        $this->_httpClient = new Zend_Http_Client();
         $app_id = Mage::getStoreConfig('currency/mb_openexchangerates/app_id');
         if (!$app_id) {
             $e = new Exception(Mage::helper('mb_openexchangerates')->__('No Openexchangerates App Id set!'));
